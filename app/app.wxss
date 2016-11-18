@@ -1,0 +1,9 @@
+page {
+  font-family: "Avenir", "Avenir Next", sans-serif;
+  font-size: 32rpx;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.container {
+  padding: 32rpx;
+}

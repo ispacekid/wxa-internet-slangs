@@ -1,0 +1,77 @@
+.entry-header {
+  padding: 96rpx 32rpx;
+  color: #ffffff;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.entry-header .entry-speak {
+  font-size: 24rpx;
+  line-height: 1.5;
+}
+.entry-header .entry-title {
+  font-size: 48rpx;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.entry-tags {
+  margin-bottom: 16rpx;
+  padding-bottom: 16rpx;
+  color: #607d8b;
+  border-bottom: 1rpx solid #b0bec5;
+}
+.entry-tags .tag {
+  margin-right: 16rpx;
+  padding: 0 8rpx;
+  font-size: 24rpx;
+  border: 1rpx solid #b0bec5;
+  border-radius: 8rpx;
+}
+.entry-attachments {
+  margin-top: 16rpx;
+}
+.entry-attachments .attachment-quote {
+  padding: 0 32rpx;
+  font-size: 28rpx;
+  color: #607d8b;
+}
+.entry-attachments .attachment-quote::before {
+  content: "“";
+  position: absolute;
+  margin: -16rpx 0 0 -32rpx;
+  font-size: 64rpx;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 400;
+  color: #b0bec5;
+}
+.entry-attachments .attachment-quote::after {
+  content: "”";
+  position: absolute;
+  margin: -16rpx 0 0 8rpx;
+  font-size: 64rpx;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 400;
+  color: #b0bec5;
+}
+.entry-attachments .attachment-image,
+.entry-attachments .attachment-audio,
+.entry-attachments .attachment-video {
+  width: 100%;
+}
+.entry-footnotes {
+  margin-top: 16rpx;
+  padding-top: 16rpx;
+  color: #607d8b;
+  font-size: 24rpx;
+  border-top: 1rpx solid #b0bec5;
+}
+.entry-footnotes .footnote {
+  word-break: break-all;
+}
+.entry-meta {
+  margin-top: 16rpx;
+  color: #b0bec5;
+  font-size: 24rpx;
+}

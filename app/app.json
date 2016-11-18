@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/entry/entry"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "true",
+    "navigationBarBackgroundColor": "#ffeb3b",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "新词 GET!"
+  }
+}
