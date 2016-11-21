@@ -29,3 +29,9 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.entry-meta {
+  margin-bottom: 8rpx;
+  text-align: center;
+  color: #b0bec5;
+  font-size: 24rpx;
+}
