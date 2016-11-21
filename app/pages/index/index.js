@@ -7,12 +7,10 @@ Page({
   // 监听页面加载
   onLoad () {
     console.log('Index Page: onLoad.')
-    // wx.showNavigationBarLoading()
   },
   // 监听页面初次渲染完成
   onReady () {
     console.log('Index Page: onReady.')
-    // wx.hideNavigationBarLoading()
   },
   // 监听页面显示
   onShow () {

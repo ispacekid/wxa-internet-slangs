@@ -2,7 +2,14 @@ var app = getApp()
 
 Page({
   data: {
-    length: Object.keys(app.globalData.api.data).length
+    title: app.globalData.info.name,
+    version: app.globalData.info.version,
+    length: Object.keys(app.globalData.api.data).length,
+    copyright: app.globalData.info.copyright,
+    meta: {
+      origin: "spacekid.me/internet-slangs",
+      opensource: "github.com/anegie/wxa-internet-slangs"
+    }
   },
   // 监听页面加载
   onLoad () {

@@ -9,7 +9,6 @@ Page({
   // 监听页面加载
   onLoad: function (options) {
     console.log('Entry Page: onLoad.')
-    // wx.showNavigationBarLoading()
     // 提取当前词条数据
     var entryData = app.globalData.api.data[Number(options.index)]
     console.dir(entryData)
@@ -27,7 +26,6 @@ Page({
   // 监听页面初次渲染完成
   onReady () {
     console.log('Entry Page: onReady.')
-    // wx.hideNavigationBarLoading()
   },
   // 监听页面显示
   onShow () {
