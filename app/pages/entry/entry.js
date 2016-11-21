@@ -1,5 +1,4 @@
 var app = getApp()
-app.globalData.api.data
 
 Page({
   data: {
@@ -8,22 +7,27 @@ Page({
     footnotes: {}
   },
   // 监听页面加载
-  onLoad: function(options) {
-    console.log('Entry Page: onLoad.'),
+  onLoad: function (options) {
+    console.log('Entry Page: onLoad.')
+    // wx.showNavigationBarLoading()
+    // 提取当前词条数据
+    var entryData = app.globalData.api.data[Number(options.index)]
+    console.dir(entryData)
     // 设定数据
     this.setData({
-      item: app.globalData.api.data[Number(options.index)],
-      attachments: app.globalData.api.data[Number(options.index)].attachments,
-      footnotes: app.globalData.api.data[Number(options.index)].footnotes
+      item: entryData,
+      attachments: entryData.attachments,
+      footnotes: entryData.footnotes
     }),
     // 设定导航栏标题
     wx.setNavigationBarTitle({
-      title: app.globalData.api.data[Number(options.index)].title
+      title: entryData.title
     })
   },
   // 监听页面初次渲染完成
   onReady () {
     console.log('Entry Page: onReady.')
+    // wx.hideNavigationBarLoading()
   },
   // 监听页面显示
   onShow () {
@@ -39,6 +43,6 @@ Page({
   },
   // 监听用户下拉刷新动作
   onPullDownRefresh () {
-    console.log('Entry Page: onPullDownRefresh.')
+    console.info('Entry Page: onPullDownRefresh.')
   },
 })

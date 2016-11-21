@@ -7,10 +7,12 @@ Page({
   // 监听页面加载
   onLoad () {
     console.log('Index Page: onLoad.')
+    // wx.showNavigationBarLoading()
   },
   // 监听页面初次渲染完成
   onReady () {
     console.log('Index Page: onReady.')
+    // wx.hideNavigationBarLoading()
   },
   // 监听页面显示
   onShow () {
@@ -26,7 +28,7 @@ Page({
   },
   // 监听用户下拉刷新动作
   onPullDownRefresh () {
-    console.log('Index Page: onPullDownRefresh.')
+    console.info('Index Page: onPullDownRefresh.')
   },
   // 跳转详情页
   touchEntry (e) {

@@ -5,8 +5,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": "true",
-    "navigationBarBackgroundColor": "#ffeb3b",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "新词 GET!"
   }
