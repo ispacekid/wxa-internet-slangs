@@ -5,7 +5,7 @@ module.exports = {
     {
       "title": "蓝瘦，香菇",
       "speak": "lán shòu xiāng gū",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/lanshouxianggu-01.jpg",
       "tags": {
         "phonetic": "谐音",
         "phoneticDfn": "「难受，想哭」的谐音。"
@@ -46,6 +46,13 @@ module.exports = {
       "speak": "yǒu yì de xiǎo chuán shuō fān jiù fān",
       "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/images/unsplash/photo-1443376133869-19bce1f036e1@720x450.jpg",
       "dfn": "源于动漫形象「企鹅联萌」作者 @企鹅北游记 的一则漫画¹，漫画描绘了两只企鹅「东尼」和「阿德」乘坐的「友谊小船」说翻就翻的故事。经网友补充后，完整表述是「友谊的小船说翻就翻，爱情的巨轮说沉就沉」。后来也有用作「让我们荡起双桨，小船儿说翻就翻」的。",
+      "attachments": [
+        {
+          "type": "image",
+          "mode": "aspectFill",
+          "src": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/yydxcsfjf-01.jpg"
+        }
+      ],
       "footnotes": [
         "¹ http://weibo.com/3395948034/Dp8slrhNX, 微博, 2014-04-02"
       ],
@@ -67,7 +74,7 @@ module.exports = {
         {
           "type": "image",
           "mode": "aspectFill",
-          "src": "http://mmbiz.qpic.cn/mmbiz/AYWyLVoCvGia5UBoLyRqjQrdNGKm7icWh0VJCEOMCOsUnBhwpohpzIATk8DnkofNx71X67t66w16SQDbTeZ7BFRg/0"
+          "src": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/madezhizhang-01.jpg"
         }
       ],
       "footnotes": [
@@ -130,7 +137,7 @@ module.exports = {
     {
       "title": "阿基巴巴",
       "speak": "ā jī bā bā",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/ajibaba-01.jpg",
       "dfn": "指 Angelababy（杨颖）。出自一段名为《湖南大妈神理论：关键要长得好》的短视频¹，该视频中，一位长沙大妈用长沙方言教育儿子择偶不察。由于该段视频在微博、秒拍上被大量转发，「阿基巴巴」这个称呼也随之流行。",
       "attachments": [
         {
@@ -199,7 +206,7 @@ module.exports = {
     {
       "title": "吓死宝宝了",
       "speak": "xià sǐ bǎo bǎo le",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/images/unsplash/photo-1425082661705-1834bfd09dca@720x450.jpg",
       "dfn": "「吓死（本）宝宝了」是一个「万能接梗王」感叹句，可用于表达卖萌、吐槽、傲娇、害怕等多种情绪。出处不详，最初在 2014 年的《英雄联盟》游戏、「德玛西亚贴吧」、「YY 语音频道」等地即有人使用；后在微博、B 站（哔哩哔哩弹幕视频网）以「万能回复梗」、「万能弹幕」的形式被发扬。经过金星在《金星秀》节目大力推广后爆红，最终「宝宝」被发展成一种广泛的第一人称自称，产生出类似于「饿死宝宝了」「累死宝宝了」「本宝宝要出去玩了」的用法。特别喜欢使用「宝宝」自称的人有时会被称为「宝宝婊」。",
       "meta": {
         "derivation": "《英雄联盟》、YY 语音频道",
@@ -222,7 +229,7 @@ module.exports = {
     {
       "title": "你们城里人真会玩",
       "speak": "nǐ men chéng lǐ rén zhēn huì wán",
-      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/nimenchenglirenzhenhuiwan-01.jpg",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/nimenchenglirenzhenhuiwan-02.jpg",
       "tags": {
         "abbr": "缩写",
         "abbrDfn": "可缩写为「城会玩」。"
@@ -236,7 +243,7 @@ module.exports = {
         {
           "type": "image",
           "mode": "aspectFill",
-          "src": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/nimenchenglirenzhenhuiwan-02.jpg"
+          "src": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/nimenchenglirenzhenhuiwan-01.jpg"
         }
       ],
       "meta": {
@@ -266,7 +273,7 @@ module.exports = {
     {
       "title": "我选择死亡",
       "speak": "wǒ xuǎn zé sǐ wáng",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/woxuanzesiwang-01.jpg",
       "dfn": "「我选择死亡」是《炉石传说》游戏中战士（加尔鲁什）的投降台词，由于配音和表述的喜感，后被用于表达受到了打击或者精神污染，在 B 站（哔哩哔哩弹幕视频网）中被广泛使用。亦可配合该游戏中猎人（雷克萨）的投降台词「打得好，我认输」使用，例如「╳ 得好，我选择死亡」。",
       "meta": {
         "derivation": "《炉石传说》",
@@ -290,12 +297,16 @@ module.exports = {
     {
       "title": "我从未见过有如此厚颜无耻之人",
       "speak": "wǒ cóng wèi jiàn guò yǒu rú cǐ hòu yán wú chǐ zhī rén",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/wcwjgyrchywczr-01.jpg",
       "dfn": "出自 1994 年版电视剧《三国演义》第 69 集中诸葛亮（由唐国强扮演）阵前怒骂王朗时的台词。电视剧中，两人在阵前对骂，诸葛亮以最后一击骂完这句话以后，王朗被活活气死，跌落马下。后来这段电视剧情节被制作成鬼畜视频传播开来，这句话也成为固定用法，用在鬼畜恶搞视频的结尾，或用来嘲讽、吐槽他人的厚颜无耻、自食其果的行为。",
       "attachments": [
         {
           "type": "quote",
           "text": "二臣贼子！你枉活七十有六，一生未立寸功，只会摇唇鼓舌，助曹为虐！一条断脊之犬，还敢在我军阵前狺狺狂吠！我从未见过有如此厚颜无耻之人！"
+        },
+        {
+          "type": "video",
+          "src": "http://gslb.miaopai.com/stream/I35Lisx8EpNT09JTyqvITA__.mp4"
         }
       ],
       "meta": {
@@ -358,7 +369,7 @@ module.exports = {
       "title": "不要不要的",
       "speak": "bù yào bù yào de",
       "imageUrl": "",
-      "dfn": "程度副词，一般位置在被修饰的形容词或者副词之后，以「╳ 得不要不要的」形式出现，相当于「很」、「非常」的夸张用法。",
+      "dfn": "程度副词。一般位置在被修饰的形容词或者副词之后，以「╳ 得不要不要的」形式出现，相当于「很」、「非常」的夸张用法。",
       "meta": {
         "collectionDate": "2015 年 2 月"
       }
@@ -366,16 +377,20 @@ module.exports = {
     {
       "title": "duang",
       "speak": "duāng",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/duang-01.jpg",
       "tags": {
         "alt": "亦作",
         "altDfn": "「加特效」。"
       },
-      "dfn": "出自 2004 年成龙所代言的霸王洗发水广告，在 2015 年初被用户名为「绯色toy」的用户制作成恶搞视频发表于哔哩哔哩动画，与「其实一开始我是拒绝的」同时走红。而「duang」也作为拟声词，被用来形容某个动作效果、模仿某种特效配音，多指一瞬间达到的特殊效果。",
+      "dfn": "拟声词。出自 2004 年成龙所代言的霸王洗发水广告，在 2015 年初被用户名为「绯色toy」的用户制作成恶搞视频发表于哔哩哔哩动画，与「其实一开始我是拒绝的」同时走红。被用来形容某个动作效果、模仿某种特效配音，多指一瞬间达到的特殊效果。",
       "attachments": [
         {
           "type": "quote",
           "text": "当我第一次知道要拍洗发水广告的时候，其实我是拒绝的。因为我觉得，你不能叫我拍马上就拍。第一我要试一下，我又不想说，一个广告拍完后加上好多特技，头发 duang（注：原文为「动啊」，「duang」可能系空耳讹传），很黑，很亮，很柔，结果观众出来一定会骂我，根本没有这种头发，证明上面这个是假的。"
+        },
+        {
+          "type": "video",
+          "src": "http://www.bilibilijj.com/Files/DownLoad/3184448.mp4/www.bilibilijj.com.mp4?mp3=true"
         }
       ],
       "meta": {
@@ -386,17 +401,64 @@ module.exports = {
     {
       "title": "其实一开始我是拒绝的",
       "speak": "qí shí yī kāi shǐ wǒ shì jù jué de",
-      "imageUrl": "",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/duang-02.jpg",
       "dfn": "出自 2004 年成龙所代言的霸王洗发水广告，在 2015 年初被用户名为「绯色toy」的用户制作成恶搞视频发表于哔哩哔哩动画，与「duang」同时走红。",
       "attachments": [
         {
           "type": "quote",
           "text": "当我第一次知道要拍洗发水广告的时候，其实我是拒绝的。因为我觉得，你不能叫我拍马上就拍。第一我要试一下，我又不想说，一个广告拍完后加上好多特技，头发 duang（注：原文为「动啊」，「duang」可能系空耳讹传），很黑，很亮，很柔，结果观众出来一定会骂我，根本没有这种头发，证明上面这个是假的。"
+        },
+        {
+          "type": "video",
+          "src": "http://www.bilibilijj.com/Files/DownLoad/3184448.mp4/www.bilibilijj.com.mp4?mp3=true"
         }
       ],
       "meta": {
         "derivation": "成龙",
         "collectionDate": "2015 年 2 月"
+      }
+    },
+    {
+      "title": "魔性",
+      "speak": "mó xìng",
+      "imageUrl": "",
+      "dfn": "形容词。出自日语魔性（ましょう），指具有诡异而强烈的诱惑，令人无法自拔。",
+      "meta": {
+        "derivation": "日语",
+        "collectionDate": "2015 年 1 月"
+      }
+    },
+    {
+      "title": "目瞪口呆.jpg",
+      "speak": "mù dèng kǒu dāi",
+      "imageUrl": "",
+      "dfn": "来源于一张名为「目瞪口呆」表情图片的文件名。由于该表情经常被网友引用，逐渐形成了只需要贴出文件名就能起到引用表情的效果。",
+      "attachments": [
+        {
+          "type": "image",
+          "mode": "aspectFit",
+          "src": "http://7xjljf.com1.z0.glb.clouddn.com/image/internet-slangs/mudengkoudai-01.jpg"
+        }
+      ],
+      "meta": {
+        "derivation": "表情包",
+        "collectionDate": "2015 年 1 月"
+      }
+    },
+    {
+      "title": "你妈炸了",
+      "speak": "nǐ mā zhà le",
+      "imageUrl": "http://7xjljf.com1.z0.glb.clouddn.com/images/unsplash/photo-1436891678271-9c672565d8f6@720x450.jpg",
+      "dfn": "「你妈炸了」现在常常被当做一句脏话来使用。而该词出自一条新闻：「55 岁的英国女子安内特·毛德因癌症去世，离世前她要求将自己的骨灰制成烟花，在生命结束之际再灿烂一把。烟花公司耗时两周用她的骨灰制作了 250 只特制烟花。」微博上有段子手借题发挥补充道：",
+      "attachments": [
+        {
+          "type": "quote",
+          "text": "葬礼上爸爸点燃烟花说，别哭儿子，快看，你妈炸了。"
+        }
+      ],
+      "meta": {
+        "derivation": "社会新闻",
+        "collectionDate": "2015 年 1 月"
       }
     },
     {
