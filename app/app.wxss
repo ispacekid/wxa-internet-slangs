@@ -2,7 +2,7 @@ page {
   display: flex;
   flex-direction: column;
   font-family: "Avenir", "Avenir Next", sans-serif;
-  font-size: 32rpx;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -10,5 +10,5 @@ page {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 32rpx;
+  padding: 16px;
 }
