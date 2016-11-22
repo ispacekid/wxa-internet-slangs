@@ -54,7 +54,7 @@ module.exports = {
         }
       ],
       "footnotes": [
-        "¹ http://weibo.com/3395948034/Dp8slrhNX, 微博, 2014-04-02"
+        "¹ http://weibo.com/3395948034/Dp8slrhNX, 微博, 2016-04-02"
       ],
       "meta": {
         "derivation": "微博（@企鹅北游记）",
