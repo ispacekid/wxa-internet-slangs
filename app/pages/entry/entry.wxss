@@ -90,7 +90,14 @@
   margin-left: 8px;
   line-height: 1.5;
 }
+.entry-comment .author .author-info .author-name {
+  display: block;
+}
+.entry-comment .author .author-info .author-name.author-anonymous {
+  color: #bdbdbd;
+}
 .entry-comment .author .author-info .post-time {
+  display: block;
   color: #bdbdbd;
 }
 .entry-comment .comment-str {

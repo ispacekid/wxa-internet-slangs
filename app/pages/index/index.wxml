@@ -1,5 +1,5 @@
 <import src="/templates/entries.wxml"/>
 
 <view class="container">
-  <template is="entries" data="{{entries}}"/>
+  <template is="entries" data="{{ entries }}"/>
 </view>

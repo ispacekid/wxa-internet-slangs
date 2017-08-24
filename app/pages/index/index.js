@@ -14,6 +14,14 @@ Page({
   },
   // 监听页面加载
   onLoad: function() {
+    // 获取用户信息
+    var that = this
+    app.getUserInfo(function(userInfo) {
+      that.setData({
+        userInfo: userInfo
+      })
+    })
+    // 获取词条数据
     var query = new AV.Query('entry')
     query
       .ascending('meta.collectionDate')

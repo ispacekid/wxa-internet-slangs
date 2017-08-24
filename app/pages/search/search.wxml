@@ -4,10 +4,10 @@
 <view class="container">
   <view class="wxSearch-section">
     <view class="wxSearch-panel">
-      <input class="wxSearch-input" placeholder="搜索词条…" placeholder-class="input-placeholder" value="{{wxSearchData.value}}" bindfocus="wxSearchFocus" bindinput="wxSearchInput" bindblur="wxSearchBlur"/>
+      <input class="wxSearch-input" placeholder="搜索词条…" placeholder-class="input-placeholder" value="{{ wxSearchData.value }}" bindfocus="wxSearchFocus" bindinput="wxSearchInput" bindblur="wxSearchBlur"/>
       <button class="wxSearch-button" bindtap="wxSearchFn">搜索</button>
     </view>
   </view>
-  <template is="wxSearch" data="{{wxSearchData}}"/>
-  <template is="entries" data="{{entries}}"/>
+  <template is="wxSearch" data="{{ wxSearchData }}"/>
+  <template is="entries" data="{{ entries }}"/>
 </view>
