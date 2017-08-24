@@ -2,7 +2,6 @@
   <image class="header-logo" mode="aspectFill" src="images/logo.png"></image>
   <view class="header-title">{{title}}</view>
   <view class="header-version">{{version}}</view>
-  <view class="header-length">{{"当前已收录 " + length + " 个词条"}}</view>
 </view>
 <view class="footer">
   <view class="footer-copyright">{{copyright}}</view>

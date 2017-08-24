@@ -1,9 +1,10 @@
+/* All pages */
+
 page {
   display: flex;
   flex-direction: column;
   font-family: "Avenir", "Avenir Next", sans-serif;
   font-size: 16px;
-  font-weight: 300;
   line-height: 1.6;
 }
 .container {
@@ -11,4 +12,53 @@ page {
   justify-content: center;
   box-sizing: border-box;
   padding: 16px;
+}
+
+/* Sections, used in index.wxml & search.wxml */
+
+.section-entry {
+  margin-bottom: 16px;
+  padding: 16px;
+  color: #ffffff;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .1);
+}
+.section-entry:active {
+  box-shadow: 0 4px 16rpx rgba(0, 0, 0, .1);
+}
+.section-speak {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.section-title {
+  overflow: hidden;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.section-dfn {
+  display: -webkit-box;
+  overflow: hidden;
+  color: rgba(255, 255, 255, .75);
+  font-size: 14px;
+  line-height: 1.5;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.section-meta {
+  margin-top: 4px;
+  font-size: 12px;
 }

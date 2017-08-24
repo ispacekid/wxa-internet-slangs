@@ -10,10 +10,10 @@
     "enablePullDownRefresh": false,
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "新词 GET!"
+    "navigationBarTitleText": "网络用语词典"
   },
   "tabBar": {
-    "color": "#b0bec5",
+    "color": "#78909c",
     "selectedColor": "#2196f3",
     "backgroundColor": "#ffffff",
     "borderStyle": "white",

@@ -1,4 +1,5 @@
-var app = getApp()
+const app = getApp()
+const AV = require('../../libs/av-weapp-min.js')
 
 Page({
   data: {
@@ -7,40 +8,40 @@ Page({
     footnotes: {}
   },
   // 监听页面加载
-  onLoad: function (options) {
+  onLoad: function(options) {
+    var query = new AV.Query('entry')
+    query
+      .get(options.entryId)
+      .then(item => this.setData({
+        item,
+        attachments: item.get('attachments'),
+        footnotes: item.get('footnotes')
+      }))
+      .catch(console.error);
     console.log('Entry Page: onLoad.')
-    // 提取当前词条数据
-    var entryData = app.globalData.api.data[Number(options.index)]
-    console.dir(entryData)
-    // 设定数据
-    this.setData({
-      item: entryData,
-      attachments: entryData.attachments,
-      footnotes: entryData.footnotes
-    }),
-    // 设定导航栏标题
-    wx.setNavigationBarTitle({
-      title: entryData.title
-    })
   },
   // 监听页面初次渲染完成
-  onReady () {
+  onReady: function() {
+    // 设定导航栏标题
+    // wx.setNavigationBarTitle({
+    //   title: this.data.item.title
+    // })
     console.log('Entry Page: onReady.')
   },
   // 监听页面显示
-  onShow () {
+  onShow: function() {
     console.log('Entry Page: onShow.')
   },
   // 监听页面隐藏
-  onHide () {
+  onHide: function() {
     console.log('Entry Page: onHide.')
   },
   // 监听页面卸载
-  onUnload () {
+  onUnload: function() {
     console.log('Entry Page: onUnload.')
   },
   // 监听用户下拉刷新动作
-  onPullDownRefresh () {
-    console.info('Entry Page: onPullDownRefresh.')
+  onPullDownRefresh: function() {
+    console.log('Entry Page: onPullDownRefresh.')
   },
 })

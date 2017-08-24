@@ -14,8 +14,7 @@
   font-size: 24px;
   font-weight: 600;
 }
-.header-version,
-.header-length {
+.header-version {
   color: #607d8b;
   font-size: 12px;
 }
