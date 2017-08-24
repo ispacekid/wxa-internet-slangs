@@ -1,11 +1,11 @@
 const app = getApp()
-const AV = require('../../libs/av-weapp-min.js')
+const AV = require('../../libs/leancloud/av-weapp-min.js')
 
 Page({
   data: {
-    title: app.globalData.info.name,
-    version: app.globalData.info.version,
-    copyright: app.globalData.info.copyright,
+    title: app.globalData.appInfo.name,
+    version: app.globalData.appInfo.version,
+    copyright: app.globalData.appInfo.copyright,
     meta: {
       origin: "spacekid.me/internet-slangs",
       opensource: "github.com/ispacekid/wxa-internet-slangs"

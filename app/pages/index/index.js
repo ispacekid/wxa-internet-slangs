@@ -1,5 +1,5 @@
 const app = getApp()
-const AV = require('../../libs/av-weapp-min.js')
+const AV = require('../../libs/leancloud/av-weapp-min.js')
 
 Page({
   data: {

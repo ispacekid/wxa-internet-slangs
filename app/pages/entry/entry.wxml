@@ -2,25 +2,25 @@
   <view class="entry-speak">{{item.speak}}</view>
   <view class="entry-title">{{item.title}}</view>
 </view>
-<view class="container">
+<view class="container container-entry">
   <!-- 标签 -->
   <view class="entry-tags" wx:if="{{item.tags}}">
     <view wx:if="{{item.tags.phonetic}}">
       <text class="tag">{{item.tags.phonetic}}</text>
-      <text>{{item.tags.phoneticDfn}}</text>
+      <text selectable="true">{{item.tags.phoneticDfn}}</text>
     </view>
     <view wx:if="{{item.tags.abbr}}">
       <text class="tag">{{item.tags.abbr}}</text>
-      <text>{{item.tags.abbrDfn}}</text>
+      <text selectable="true">{{item.tags.abbrDfn}}</text>
     </view>
     <view wx:if="{{item.tags.alt}}">
       <text class="tag">{{item.tags.alt}}</text>
-      <text>{{item.tags.altDfn}}</text>
+      <text selectable="true">{{item.tags.altDfn}}</text>
     </view>
   </view>
   <!-- 释义 -->
   <view class="entry-dfn">
-    <text class="dfn">{{item.dfn}}</text>
+    <text class="dfn" selectable="true">{{item.dfn}}</text>
   </view>
   <!-- 附件 -->
   <block wx:if="{{item.attachments}}">
@@ -29,7 +29,7 @@
       <!-- 必须使用 wx:for-item 为变量指定名称，否则默认名称 item 将重复使用，导致编译后其后内容无法显示 -->
       <view class="entry-attachments" wx:if="{{attachment.type == 'quote'}}">
         <view class="attachment-quote">
-          <text>{{attachment.text}}</text>
+          <text selectable="true">{{attachment.text}}</text>
         </view>
       </view>
       <view class="entry-attachments" wx:if="{{attachment.type == 'image'}}">
@@ -47,7 +47,7 @@
   <!-- 脚注 -->
   <view class="entry-footnotes" wx:if="{{item.footnotes}}">
     <view wx:for="{{footnotes}}" wx:for-item="footnote" wx:key="unique">
-      <text class="footnote">{{footnote}}</text>
+      <text class="footnote" selectable="true">{{footnote}}</text>
     </view>
   </view>
   <!-- 元数据 -->
@@ -59,4 +59,29 @@
       <text class="meta">{{"收录：" + item.meta.collectionDate}}</text>
     </view>
   </view>
+</view>
+<view class="container container-comments" wx:if="{{ item.comments && item.comments.length > 0 }}">
+  <!-- 评论 -->
+  <view class="entry-comments">
+    <text class="comment-heading">评论</text>
+    <view class="entry-comment" wx:for="{{ item.comments }}" wx:key="{{ index }}">
+      <view class="author">
+        <image class="author-avatar" src="{{ item.author.avatarUrl }}" background-size="cover"></image>
+        <view class="author-info">
+          <view class="author-name">{{ item.author.nickName}}</view>
+          <view class="post-time">{{ item.formatDate }}</view>
+        </view>
+      </view>
+      <text class="comment-str" selectable="true">{{ item.commentStr }}</text>
+    </view>
+  </view>
+</view>
+<!-- 评论框 -->
+<view class="tool-bar">
+  <form bindsubmit="commentSubmit">
+    <view class="comment-form">
+      <input class="comment-input" type="text" confirm-type="send" placeholder="聊聊「{{ item.title }}」" bindinput="commentInput"/>
+      <button class="comment-submit" form-type="submit">发送</button>
+    </view>
+  </form>
 </view>

@@ -1,3 +1,5 @@
+/* Entry */
+
 .entry-header {
   padding: 48px 0;
   color: #ffffff;
@@ -20,7 +22,7 @@
 .entry-tags {
   margin-bottom: 8px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #eceff1;
+  border-bottom: 1px solid #eee;
 }
 .entry-tags .tag {
   margin-right: 8px;
@@ -46,15 +48,89 @@
 .entry-footnotes {
   margin-top: 8px;
   padding-top: 8px;
-  color: #607d8b;
+  color: #757575;
   font-size: 14px;
-  border-top: 1px solid #eceff1;
+  border-top: 1px solid #eee;
 }
 .entry-footnotes .footnote {
   word-break: break-all;
 }
 .entry-meta {
   margin-top: 8px;
-  color: #607d8b;
+  color: #bdbdbd;
   font-size: 14px;
+}
+
+/* Comments */
+
+.container-comments {
+  margin-bottom: 48px;
+  border-top: 8px solid #f5f5f5;
+}
+.entry-comments .comment-heading {
+  display: block;
+  margin-bottom: 16px;
+}
+.entry-comment {
+  padding: 16px 0;
+  border-top: 1px solid #eee;
+}
+.entry-comment .author {
+  font-size: 14px;
+  overflow: hidden;
+}
+.entry-comment .author .author-avatar {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.entry-comment .author .author-info {
+  float: left;
+  margin-left: 8px;
+  line-height: 1.5;
+}
+.entry-comment .author .author-info .post-time {
+  color: #bdbdbd;
+}
+.entry-comment .comment-str {
+  display: block;
+  margin-left: 56px;
+  font-size: 14px;
+}
+
+/* Tool-bar */
+
+.tool-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .75);
+  -webkit-backdrop-filter: saturate(100%) blur(30px);
+  backdrop-filter: saturate(100%) blur(30px);
+  overflow: hidden;
+}
+.tool-bar .comment-form {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+}
+.tool-bar .comment-input {
+  flex: 8;
+  margin-right: 12px;
+  padding: 6px 12px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.tool-bar .comment-submit {
+  flex: 1;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+}
+.tool-bar .comment-submit::after {
+  display: none;
 }

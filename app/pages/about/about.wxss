@@ -4,18 +4,17 @@
 }
 .header-logo {
   display: flex;
-  width: 96px;
-  height: 96px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 16px;
-  border: 1px solid #eceff1;
-  border-radius: 16px;
+  border-radius: 50%;
 }
 .header-title {
   font-size: 24px;
   font-weight: 600;
 }
 .header-version {
-  color: #607d8b;
+  color: #757575;
   font-size: 12px;
 }
 .footer {
@@ -27,6 +26,6 @@
 .footer-copyright,
 .footer-meta {
   text-align: center;
-  color: #b0bec5;
+  color: #bdbdbd;
   font-size: 12px;
 }

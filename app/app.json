@@ -13,7 +13,7 @@
     "navigationBarTitleText": "网络用语词典"
   },
   "tabBar": {
-    "color": "#78909c",
+    "color": "#bdbdbd",
     "selectedColor": "#2196f3",
     "backgroundColor": "#ffffff",
     "borderStyle": "white",

@@ -1,5 +1,5 @@
 <view class="header container">
-  <image class="header-logo" mode="aspectFill" src="images/logo.png"></image>
+  <image class="header-logo" mode="aspectFill" src="../../images/logo.png"></image>
   <view class="header-title">{{title}}</view>
   <view class="header-version">{{version}}</view>
 </view>

@@ -1,4 +1,4 @@
-@import "/utils/wxSearch/wxSearch.wxss";
+@import "/libs/wxSearch/wxSearch.wxss";
 
 .input-placeholder {
   color: #b0bec5;

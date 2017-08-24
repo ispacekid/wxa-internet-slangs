@@ -1,14 +1,14 @@
 <template name="entries">
   <view wx:for="{{entries}}" wx:for-index="itemIndex" wx:key="unique">
     <!-- 为 wx:for 循环指定 wx:for-index，才能进入正确的详情页 -->
-    <view bindtap="touchEntry" data-id="{{item.objectId}}" class="section section-entry" style="background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('{{item.imageUrl}}');">
-      <view class="section-speak">{{item.speak}}</view>
-      <view class="section-title">{{item.title}}</view>
-      <view class="section-dfn">{{item.dfn}}</view>
-      <view class="section-meta" wx:if="{{item.meta}}">
-        <view wx:if="{{item.meta.collectionDate}}">
-          <text class="meta">{{item.meta.collectionDate}}</text>
-        </view>
+    <view bindtap="touchEntry" data-id="{{ item.objectId }}" class="section section-entry" style="background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('{{item.imageUrl}}');">
+      <view class="section-speak">{{ item.speak }}</view>
+      <view class="section-title">{{ item.title }}</view>
+      <view class="section-dfn">{{ item.dfn }}</view>
+      <view class="section-meta" wx:if="{{ item.meta }}">
+        <block wx:if="{{ item.meta.collectionDate }}">
+          <text class="meta">{{ item.meta.collectionDate }}</text>
+        </block>
       </view>
     </view>
   </view>
