@@ -1,5 +1,9 @@
 # 网络用语词典 - 微信小程序
 
+**注意**：本项目已不再维护，可以移步作者个人主页 [https://spacekid.me/](https://spacekid.me/) 了解我的其他项目。谢谢关注！
+
+**Notice**: This project is no longer maintained. Check my homepage [https://spacekid.me/](https://spacekid.me/) for more projects.
+
 ## 介绍 Introduction
 
 一款基于[微信小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)开发的网络用语科普与查询工具，是本人先前[《网络用语词典》](http://spacekid.me/internet-slangs/)作品的微信小程序版本。
